@@ -1,10 +1,13 @@
 # guess number 1 to 100 game
+
+
 def main():
     print("Guess the number from 1 to 100")
     import random 
-    number = random.randrange(1,100)
+    number = random.randrange(1, 100)
     guess = 0
     my_loop(number, guess)
+
 
 def my_loop(number, guess):
 
