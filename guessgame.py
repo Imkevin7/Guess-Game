@@ -22,6 +22,12 @@ def my_loop(number, guess):
             continue
         else:
             print("You Win!!", number)
+            x = input("Play again? y or n\n").lower()
+            if x == "y" or x == "yes":
+                main()
+            else:
+                print("Hope you had fun!")
+
 
 
 main()
